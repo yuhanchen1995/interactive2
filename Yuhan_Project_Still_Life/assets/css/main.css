@@ -1,0 +1,302 @@
+body {
+	background: #cccccc;
+}
+ 
+  
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+ #cameraleft {
+      width: 180px;
+      height: 230px;
+      transform: skew(0deg, 10deg);
+      background: grey;
+      position:absolute;
+      left:350px;
+      top:200px;
+    }
+#lefttrapezoid {
+    width: 180px;
+      height: 60px;
+      background: #ABAAAA;
+      transform:skew(-23deg, 0deg);
+      position:relative;
+      bottom:402px;
+      left:13px;
+
+    }
+#lefttop {
+    width: 178px;
+      height: 64px;
+      background: #9F9E9E;
+      transform:skew(-63deg, 0deg);
+      position:relative;
+      bottom:64px;
+      left:63px;
+
+    }
+#camerarectangle1 {
+      width: 40px;
+      height: 20px;
+      background: black;
+      border-radius:10px/10px;
+       border-style:inset;
+      position:relative;
+      left:10px;
+      top:10px;
+    }
+#camerarectangle3 {
+      width: 150px;
+      height: 160px;
+      background: transparent;
+      border-color:white;
+      border-radius:10px/10px;
+       border-style:inset;
+      position:relative;
+      left:10px;
+      top:20px;
+    }
+#cameracircle1{
+	width: 80px;
+      height: 140px;
+      background: #828181;
+      border-radius: 50px / 100px;
+      position:relative;
+      right:17px;
+      top:5px;
+      border-style:dashed;
+      border-color:white;
+}
+#cameracircle2{
+	width: 100px;
+      height: 150px;
+      background: #615F5F;
+      border-radius: 40px / 90px;
+    
+      position:relative;
+      left:40px;
+      top:-135px;
+      
+}
+ #camerarectangle2 {
+      width: 60px;
+      height: 30px;
+      background: #615F5F;
+       border-radius: 10px / 10px;
+       border-style:inset;
+     position:relative;
+    top:55px;
+    left:5px;
+    }
+#camerafront{
+	 width: 200px;
+      height: 230px;
+      transform: skew(0deg, -15deg);
+      background: #6F6F6F;
+      position:absolute;
+     left:530px;
+      top:190px;
+}
+#cameracircle3{
+	width: 150px;
+      height: 170px;
+      background: #615F5F;
+      border-radius: 50%;
+      position:relative;
+      left:18px;
+      top:4px;
+      border-style:solid;
+      border-width:5px;
+      border-color:white;
+      border-style:outset;
+}
+#cameracircle33{
+	width: 150px;
+      height: 170px;
+      background: #5A5959;
+      border-radius: 50%;
+      position:relative;
+      left:30px;
+      top:15px;
+      border-style:dotted;
+      border-width:10px;
+      border-color:#4C4C4C;
+}
+#cameracircle4{
+	width: 170px;
+      height: 190px;
+      background: #4C4C4C;
+      transform: skew(0deg, 10deg);
+      border-radius:50%;
+      position:relative;
+      left:20px;
+      top:25px;
+      
+}
+#cameracircle6{
+	width: 150px;
+      height: 170px;
+      background: #595757;
+      border-radius: 50%;
+
+      position:relative;
+      left:25px;
+      top:10px;
+
+}
+#cameracircle7{
+	width: 100px;
+      height: 120px;
+      background: grey;
+      border-radius: 50%; 
+
+      border-style:outset;
+      border-width:10px;
+      border-color:black;
+      position:relative;
+      left:17px;
+      top:13px;
+
+}
+  #toptrapezoid {
+      border-bottom: 50px solid #7D7D7D;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 150px;
+      position:relative;
+      bottom:240px;
+    }
+  #camerarectangle4 {
+      width: 150px;
+      height: 150px;
+      background: #6F6F6F;
+     position:relative;
+    bottom:149px;
+    }
+   #camerarectangle5 {
+      width: 60px;
+      height: 150px;
+      background: grey;
+      transform:skew(0deg,24deg);
+     position:relative;
+    right:59px;
+    bottom:14px;
+    }
+   #camerarectangle6 {
+        width: 125px;
+      height: 30px;
+      background: #615F5F;
+       border-radius: 10px / 10px;
+       transform:skew(20deg,0deg);
+       border-style:inset;
+       border-color:grey;
+     position:relative;
+    bottom:150px;
+    left:15px;
+    }
+    #camerarectangle7 {
+        width: 120px;
+      height: 120px;
+      background: #615F5F;
+       border-radius: 10px / 10px;
+       transform:skew(-20deg,0deg);
+       border-style:outset;
+       border-color:grey;
+     position:relative;
+    bottom:127px;
+    left:24px;
+    }
+      #top {
+       width: 60px;
+      height: 66px;
+      background: #9F9E9E;
+      transform:skew(-65.9deg,0deg);
+     position:relative;
+    top:-66px;
+    left:74.8px;
+    }
+    #circle {
+      width: 30px;
+      height: 40px;
+      background: grey;
+      border-radius: 50%;
+      position: relative;
+      bottom:60px;
+      left:10px;
+    }
+   #circle1{
+      width: 30px;
+      height: 40px;
+      background: #B2AFAF;
+      border-radius: 50%;
+      position: relative;
+      left:10px;
+      top:5px;
+    }
+#pearbody {
+      width: 170px;
+      height: 230px;
+      background: #F9EC39;
+      border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%;
+      transform: rotate(30deg);
+      position:absolute;
+      left:200px;
+      top:200px;
+
+    }
+ #sticker {
+ 	position:relative;
+    left:90px;
+    top:110px;
+    transform: rotate(-20deg);
+    width: 40px;
+   	height: 50px;
+	background: linear-gradient(white,white, #40EEF4);
+	border-radius:  50% 50% 50% 50%
+    }
+#peartop {
+	position:relative;
+    left:65px;
+    top:-102px;
+    transform: rotate(-15deg);
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 90px solid black;
+      border-radius:  20% 20% 20% 20%
+    }
+ #pearpart {
+ 	position:relative;
+    left:40px;
+    top:-145px;
+      width: 60px;
+      height: 30px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #E9DD37;
+    }
+  
+
+    #rectangledticker {
+      width: 40px;
+      height: 2px;
+      background: black;
+     position:relative;
+    top:25px;
+    }
+  
+    #table {
+
+       border-bottom: 200px solid #F6EDC0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 850px;
+            position:absolute;
+            bottom:75px;
+    }
