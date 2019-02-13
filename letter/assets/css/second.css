@@ -1,0 +1,195 @@
+body {
+background: #8DC63F;
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    }
+.letter.w{
+  width:140px;
+}
+.letter {
+  position:relative;
+  float:left;
+  width:100px;
+  height:140px;
+  margin-left:90px;
+  margin-right:90px;
+  margin-top:20px;
+  margin-bottom:20px;
+  transform:scale(2);
+
+}
+.letter div {
+  position:absolute;
+
+}
+.centerStuff {
+ height:80vh;
+  display:grid;
+  align-items:center;
+ justify-content:center;
+}
+.centerStuffshort{
+  height:20vh;
+  display:grid;
+  align-items:center;
+ justify-content:center;
+}
+.upcircle{
+      width: 10px;
+      height: 10px;
+      background: white;
+      border-radius: 50%
+    }
+.downcircle{
+  width: 10px;
+      height: 10px;
+      background:white;
+      border-radius: 50%
+}
+.crossbar{
+  width:60px;
+  height:10px;
+  background:white;
+  border-radius:5px;
+}
+.crossbar222{
+  width:60px;
+  height:10px;
+  background:white;
+  border-radius:5px;
+}
+.crossbar .crossbar222{
+	top:25px;
+}
+.gbottom{
+width: 80px;
+  height: 40px; 
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px;
+  border: 10px solid white;
+  border-top: 0;
+}
+.g .gbottom{
+  top:90px;
+}
+.gtop{
+   width: 40px;
+  height: 80px;
+  border-top-left-radius: 50px; 
+  border: 10px solid white;
+  border-right: 0;
+  border-bottom:0;
+}
+.gtop .upcircle{
+  right:-5px;
+  top:-10px;
+}
+.g .crossbar{
+top:60px;
+  left:60px;
+}
+.gbottom .upcircle{
+  right:-10px;
+  top:-5px;
+}
+.crossr{
+  height:60px;
+  border:5px solid white;
+border-radius:5px;
+}
+.r .crossr{
+  right:60px;
+  transform:rotate(135deg)translateX(30px)translateY(-80px);
+}
+.pcopy{
+  width: 80px;
+  height: 60px; 
+  border-radius:5px;
+  border-top-left-radius: 60px; 
+  border-top-right-radius: 60px;
+  border: 10px solid white;
+  border-bottom: 0;
+}
+.verticle{
+height:70px;
+border:5px solid white;
+}
+.a .verticle {
+top:60px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+
+.a .crossbar {
+  top:60px;
+  left:40px;
+  
+}
+.oshape{
+  width: 80px;
+  height: 120px;
+  border-radius: 55px;  
+  border: 10px solid white;
+}
+.wleft{
+  bottom:0px;
+  height:100px;
+  width:80px;
+  border:10px solid white;
+  border-top:0;
+  border-bottom-right-radius:60px;
+  border-bottom-left-radius:60px;
+}
+.wright{
+  right:0px;
+  bottom:0px;
+  height:100px;
+  width:80px;
+  border:10px solid white;
+  border-top:0;
+  border-bottom-right-radius:60px;
+  border-bottom-left-radius:60px;
+}
+.leftwverticle{
+  height:20px;
+  border:5px solid white;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+.wleft .leftwverticle{
+left:-10px;
+bottom:100px;
+}
+.wright .leftwverticle{
+  right:-10px;
+bottom:100px;
+}
+.wleft .upcircle{
+  right:-10px;
+bottom:95px;
+}
+.wright .upcircle{
+   left:-10px;
+bottom:95px;
+}
+.w .crossbar{
+  top:0px;
+  left:40px;
+}
+.leaf{
+   width: 80px;
+  height: 140px;
+  background-image: linear-gradient(to top left, #A0DE21 49%, transparent 49.5%, transparent 51%, #A0DE21 51%);
+  border-radius: 100% /120px 0px;
+  border-radius: 100% / 120px 0px;
+  border-radius: 100% 0 / 140px 0px;
+}
+.square{
+  width: 80px;
+  height: 80px;
+  background:white;
+  border-radius:10px;
+}
