@@ -1,0 +1,418 @@
+body {
+background: #8DC63F;
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    }
+.letter.w{
+  width:140px;
+}
+.letter {
+  position:relative;
+  float:left;
+  width:100px;
+  height:140px;
+  margin-left:90px;
+  margin-right:90px;
+  margin-top:140px;
+  margin-bottom:20px;
+  transform:scale(2);
+
+}
+.letter div {
+  position:absolute;
+
+}
+.centerStuff {
+ height:60vh;
+  display:grid;
+  align-items:center;
+ justify-content:center;
+}
+.centerStuffshort{
+  height:40vh;
+  display:grid;
+  align-items:center;
+ justify-content:center;
+}
+.upcircle{
+      width: 10px;
+      height: 10px;
+      background: white;
+      border-radius: 50%
+    }
+.downcircle{
+  width: 10px;
+      height: 10px;
+      background:white;
+      border-radius: 50%
+}
+.crossbar{
+  width:60px;
+  height:10px;
+  background:white;
+  border-radius:5px;
+}
+.crossbar222{
+  width:60px;
+  height:10px;
+  background:white;
+  border-radius:5px;
+}
+.crossbar .crossbar222{
+	top:25px;
+}
+.gbottom{
+width: 80px;
+  height: 40px; 
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px;
+  border: 10px solid white;
+  border-top: 0;
+}
+.g .gbottom{
+  top:90px;
+}
+.gtop{
+   width: 40px;
+  height: 80px;
+  border-top-left-radius: 50px; 
+  border: 10px solid white;
+  border-right: 0;
+  border-bottom:0;
+}
+.gtop .upcircle{
+  right:-5px;
+  top:-10px;
+}
+.g .crossbar{
+top:60px;
+  left:60px;
+}
+.gbottom .upcircle{
+  right:-10px;
+  top:-5px;
+}
+.crossr{
+  height:60px;
+  border:5px solid white;
+border-radius:5px;
+}
+.r .crossr{
+  right:60px;
+  transform:rotate(135deg)translateX(30px)translateY(-80px);
+}
+.pcopy{
+  width: 80px;
+  height: 60px; 
+  border-radius:5px;
+  border-top-left-radius: 60px; 
+  border-top-right-radius: 60px;
+  border: 10px solid white;
+  border-bottom: 0;
+}
+.verticle{
+height:70px;
+border:5px solid white;
+}
+.a .verticle {
+top:60px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+
+.a .crossbar {
+  top:60px;
+  left:40px;
+  
+}
+.oshape{
+  width: 80px;
+  height: 120px;
+  border-radius: 55px;  
+  border: 10px solid white;
+}
+.wleft{
+  bottom:0px;
+  height:100px;
+  width:80px;
+  border:10px solid white;
+  border-top:0;
+  border-bottom-right-radius:60px;
+  border-bottom-left-radius:60px;
+}
+.wright{
+  right:0px;
+  bottom:0px;
+  height:100px;
+  width:80px;
+  border:10px solid white;
+  border-top:0;
+  border-bottom-right-radius:60px;
+  border-bottom-left-radius:60px;
+}
+.leftwverticle{
+  height:20px;
+  border:5px solid white;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+.wleft .leftwverticle{
+left:-10px;
+bottom:100px;
+}
+.wright .leftwverticle{
+  right:-10px;
+bottom:100px;
+}
+.wleft .upcircle{
+  right:-10px;
+bottom:95px;
+}
+.wright .upcircle{
+   left:-10px;
+bottom:95px;
+}
+.w .crossbar{
+  top:0px;
+  left:40px;
+}
+
+
+.button {
+    position: fixed;
+    left: 2vw;
+    z-index: 40;
+    width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      filter: drop-shadow(2px 2px 3px grey);
+      background:white;
+}
+.quote-button {
+    top: 190px;
+}
+.alphabet-button {
+  top: 120px;
+}
+.name-button {
+    top: 50px;
+}
+.square{
+  position:relative;
+  float:left;
+  width:120px;
+  height:120px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-top:0px;
+  margin-bottom:0px;
+  background:white;
+  border-radius:10px;
+  filter: drop-shadow(5px 5px 6px grey);
+}
+.square div {
+  position:absolute;
+
+}
+.spraybottom {
+  border-radius:40px;
+     border-bottom: 55px solid #9DD7CE;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      height: 0;
+      width: 20px;
+}
+.button1 .spraybottom{
+  left:10px;
+  bottom:10px;
+}
+.spraytop{
+  width:20px;
+  height:20px;
+  background:#124677;
+  border-top-left-radius:30px;
+    border-bottom-left-radius:5px;
+}
+.spraytop2{
+   width:10px;
+  height:20px;
+  background:#124677;
+}
+.spraytop3{
+   width:10px;
+  height:10px;
+  background:#124677;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius:2px;
+}
+.spraytop4{
+  width:10px;
+  height:30px;
+  border:7px solid #124677;
+  border-bottom-left-radius:30px;
+  border-top:0px;
+  border-right:0px;
+}
+.spraytop5{
+  width:5px;
+  height:10px;
+  background:#124677;
+}
+
+.spraycircle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:#00AEEF;
+}
+.spraytop .spraytop2{
+  left:20px;
+}
+.spraytop .spraytop3{
+  top:20px;
+  left:15px;
+}
+.spraytop .spraytop4{
+  left:30px;
+}
+.spraytop .spraytop5{
+  left:40px;
+  top:5px;
+}
+.button1 .spraytop{
+  left:30px;
+  top:20px;
+}
+.button1 .water{
+  top:15px;
+  right:40px;
+}
+.water .nn1{
+  left:0px;
+  top:10px;
+}
+.water .nn2{
+  left:10px;
+  top:0px;
+}
+.water .nn3{
+  left:10px;
+  top:20px;
+}
+.water .nn4{
+  left:20px;
+  top:-10px;
+}
+.water .nn5{
+  left:20px;
+  top:10px;
+}
+.water .nn6{
+  left:20px;
+  top:30px;
+}
+.scissorshape1{
+  width:15px;
+  height:90px;
+  background:#9DD7CE;
+
+  border-top-right-radius:20px;
+   
+
+}
+.scissorshape2{
+  width:15px;
+  height:90px;
+  background:#124677;
+  border-top-left-radius:20px;
+   
+}
+
+.button2 .scissorshape2{
+  left:50px;
+     transform-origin:8px 60px;
+  transform:rotate(-30deg);
+}
+.button2 .scissorshape1{
+  left:50px;
+   transform-origin:8px 60px;
+  transform:rotate(30deg);
+}
+.scissordowncircle2{
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  border:10px solid #124677;
+}
+.scissordowncircle1{
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  border:10px solid #9DD7CE;
+}
+.scissorshape1 .scissordowncircle1{
+  bottom:-30px;
+  left:-11px;
+}
+.scissorshape2 .scissordowncircle2{
+  bottom:-30px;
+  left:-11px;
+}
+.square .button22{
+  transform:scale(0.9);
+  left:10px;
+  top:5px;
+}
+.scissorcircle{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:white;
+  z-index:100;
+}
+.scissorshape2 .scissorcircle{
+  left:3px;
+  top:56px;
+}
+.plantbottom{
+width:80px;
+height:40px;
+border-radius:5px;
+border-top-left-radius:50px;
+border-top-right-radius:50px;
+background:#564842;
+  z-index:100;
+}
+.button3 .plantbottom{
+  bottom:10px;
+  left:20px;
+}
+.leafverticle{
+  height:50px;
+  border:3px solid #8DC63F;
+  border-radius:5px;
+}
+.button3 .leafverticle{
+  left:55px;
+  top:20px;
+}
+.leaf {
+   width: 40px; 
+   height: 40px;
+  background-color: #8DC63F; 
+  border-radius: 40px 0px;
+  border-radius: 40px 0px;
+  border-radius: 40px 0px;
+}
+.button3 .l1{
+  left:65px;
+  top:15px;
+}
+.button3 .l2{
+  transform:rotate(90deg);
+  left:10px;
+  top:18px;
+}
