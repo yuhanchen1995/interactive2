@@ -43,7 +43,7 @@ position:absolute;
   margin-left:20px;
   margin-right:20px;
   margin-top:50px;
-  margin-bottom:20px;
+  margin-bottom:-20px;
   border:10px solid white;
 border-radius:10px;
 transition: all .2s ease-in-out;;
@@ -53,21 +53,21 @@ transition: all .2s ease-in-out;;
 width:80px;
 }
 .quote-button {
-width:60px;
+width:5px;
 
 }
 .alphabet-button:hover{
 width:60px;
 }
 .alphabet-button {
-width:40px;
+width:5px;
 
 }
 .name-button:hover{
 width:40px;
 }
 .name-button {
-width:20px;
+width:5px;
 
 }
 

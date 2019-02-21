@@ -13,11 +13,15 @@ background: #8DC63F;
 #wrapper {
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:200px;
     width:1200px;
     }
+
 .letter:hover{
   margin-left:100px;
   margin-right:100px;
+  margin-top:100px;
+  margin-bottom:20px;
 }
 
 .letter {
@@ -29,15 +33,17 @@ background: #8DC63F;
   margin-right:15px;
   margin-top:100px;
   margin-bottom:20px;
- transition: all .2s ease-in-out;
+  transform:scale(0.9);
+  transition:all 0.2s ease-in-out;
 }
+
 .letter div {
   position:absolute;
 
 }
 
 .centerStuff {
- height:400px;
+ height:170px;
   display:grid;
   align-items:center;
  justify-content:center;
@@ -307,34 +313,36 @@ position:absolute;
 .button{
   position:relative;
   float:left;
-  width:100px;
   margin-left:20px;
   margin-right:20px;
   margin-top:50px;
-  margin-bottom:20px;
+  margin-bottom:-20px;
   border:10px solid white;
 border-radius:10px;
-transition: all .2s ease-in-out;;
-}
+transition:all 0.2s ease-in-out;
 
-.quote-button:hover{
-width:80px;
 }
 .quote-button {
-width:60px;
+width:5px;
 
 }
-.alphabet-button:hover{
-width:60px;
+
+.widthincrease{
+  width:80px;
 }
+
 .alphabet-button {
-width:40px;
+width:5px;
 
 }
-.name-button:hover{
-width:40px;
+.widthincrease2{
+  width:60px;
 }
+
 .name-button {
-width:20px;
+width:5px;
 
+}
+.widthincrease1{
+  width:40px;
 }

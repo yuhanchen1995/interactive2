@@ -1,11 +1,11 @@
  document.querySelector('.alphabet-button').onclick = function () {
-        location.href = "alphabet.html";
+        location.href = "quote.html";
     };
 document.querySelector('.name-button').onclick = function () {
         location.href = "name.html";
     };
 document.querySelector('.quote-button').onclick = function () {
-        location.href = "quote.html";
+        location.href = "alphabet.html";
     };
 
 let flowers = document.querySelectorAll('.flower')
