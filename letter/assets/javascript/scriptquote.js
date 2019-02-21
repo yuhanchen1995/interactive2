@@ -1,3 +1,4 @@
+
  document.querySelector('.alphabet-button').onclick = function () {
         location.href = "alphabet.html";
     };

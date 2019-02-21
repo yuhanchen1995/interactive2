@@ -7,3 +7,4 @@ document.querySelector('.name-button').onclick = function () {
 document.querySelector('.quote-button').onclick = function () {
         location.href = "quote.html";
     };
+

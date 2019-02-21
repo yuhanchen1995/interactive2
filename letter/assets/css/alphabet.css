@@ -477,7 +477,7 @@ border: 5px solid #8DC63F;
   border: 10px solid #8DC63F;
   border-bottom: 0;
 }
-.crossbar .tdown{
+.t .tdown{
   transform:rotate(90deg)translateX(5px)translateY(-75px);
 }
 .t .crossbar{
@@ -1064,3 +1064,12 @@ border: 5px solid #8DC63F;
 .name-button {
     top: 50px;
     }
+.letter:hover{
+  transform:scale(0.9);
+}
+.symbol:hover{
+  transform:scale(0.9);
+}
+.number:hover{
+  transform:scale(0.9);
+}
