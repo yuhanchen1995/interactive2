@@ -7,7 +7,9 @@ document.querySelector('.name-button').onclick = function () {
 document.querySelector('.quote-button').onclick = function () {
         location.href = "alphabet.html";
     };
-
+var Audio = document.querySelector('#Audio');
+var Audio2 = document.querySelector('#Audio2');
+var Audio3 = document.querySelector('#Audio3');
 let flowers = document.querySelectorAll('.flower')
 let lateflowers = document.querySelectorAll('.lateflower')
 let crossbar222s = document.querySelectorAll('.crossbar222')
@@ -27,12 +29,14 @@ document.querySelector('.button1').onclick = function () {
 };
 	if(clickcount === 0){
 		for(let i = 0; i < flowers.length; i++){
-			flowers[i].classList.add('grow')
+			flowers[i].classList.add('grow');
+			   Audio.play();
 		}		
 	}
 	if(clickcount === 1){
 		for(let x = 0; x < lateflowers.length; x++){
-			lateflowers[x].classList.add('growlate')
+			lateflowers[x].classList.add('growlate');
+			   Audio.play();
 		}	
 
 	}
@@ -53,12 +57,14 @@ document.querySelector('.button2').onclick = function () {
   },200);
 	if(clickcount1 === 0){
 	for(let j = 0; j < crossbar222s.length; j++){
-		crossbar222s[j].classList.add('changecolor')
+		crossbar222s[j].classList.add('changecolor');
+		   Audio2.play();
 	}	
 	}	
 	if(clickcount1 === 1){
 		for(let y = 0; y < crossbars.length; y++){
-		crossbars[y].classList.add('changecolor')
+		crossbars[y].classList.add('changecolor');
+		  Audio2.play();
 	}	}
 
 	clickcount1 ++
@@ -84,6 +90,7 @@ lateflowers[x].addEventListener('mouseenter',function(){
 };
 
 document.querySelector('.button3').onclick = function () {
+	 Audio3.play();
 	for(let x = 0; x < lateflowers.length; x++){
 	lateflowers[x].classList.remove('growlate');};
 clickcount--
