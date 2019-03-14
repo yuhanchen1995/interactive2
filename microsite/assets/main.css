@@ -1,0 +1,126 @@
+
+body {
+	background: #00b4ff;
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    height:200vh;
+    }
+
+.cloud {
+width:350px;
+height:300px;
+position:fixed;
+  float:left;
+   margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.circle{
+	background:white;
+	border-radius:50%;
+}
+.cloud .circle2{
+	width:200px;
+	height:200px;
+	top:0px;
+	left:70px;
+}
+
+.cloud .circle1{
+	width:150px;
+	height:150px;
+	top:50px;
+	left:0px;
+}
+
+.cloud .circle3{
+	width:130px;
+	height:130px;
+	top:70px;
+	left:220px;
+}
+.cloud .verticle{
+	width:210px;
+	height:30px;
+	background:white;
+	top:170px;
+	left:70px;
+}
+.cloud div {
+  position:absolute;
+}
+
+.containerdrop1{
+left:100px;
+right:100px;
+top:250px;
+height:50px;
+display:grid;
+align-items:center;
+justify-content:center;
+}
+.drop1{
+	width:20px;
+	height:20px;
+	background:yellow;
+	border-radius:50%;
+}
+.a1{
+	top:0px;
+}
+.a2{
+	top:30px;
+}
+.a3{
+	top:60px;
+}
+.a4{
+	top:70px;
+}
+.a5{
+	top:100px;
+}
+@keyframes slideinleft {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slideinleft1 {
+	animation: slideinleft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+.rainColumn {
+	width:200px;
+	height:400px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: absolute;
+	top:220px;
+}
+.rainColumn::-webkit-scrollbar {
+  display: none;
+}
+.rain {
+	position: relative;
+	width:200px;
+	height: 2000px
+}
+
+.rainDrop {
+	position: absolute;
+	top:1000px;
+	width:10px;
+	height:10px;
+	background-color: yellow;
+}
