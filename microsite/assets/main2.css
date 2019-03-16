@@ -31,10 +31,22 @@ font-size: 20px;
 color:white;
 transition:ease-in-out 1000ms;
 }
+@keyframes rotateout{
+  0% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(45deg);
+    opacity: 0;
+  }
+}
+#startbutton.state2{
+animation: rotateout 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 #startbutton.state1{
 transform:scale(0.5);
 }
-
 .wrapper{
 	position:absolute;
 	top:40vh;
@@ -47,7 +59,6 @@ path{
 	fill:#000000;
 	stroke-dasharray:1200;
 	opacity:0;
-	transition:ease-in-out 2000ms;
 }
 @keyframes stroke{
 0%{
@@ -297,11 +308,10 @@ transform-origin:10px 100px;
 transform-origin:100px 100px;
 }
 
-
 #photo1{
  position:absolute;
  width:700px;
- height:500px;
+ height:550px;
  left:-700px;
  top:10%;
  background:no-repeat center/70% url('image/fly1.png');
@@ -310,10 +320,10 @@ transform-origin:100px 100px;
 transition:ease-in-out 2000ms;
 cursor:pointer;
 }
+
 #photo1.state1{
 transform:translateX(700px);
 }
-
 
 #image1.state4{
 left: -50%;

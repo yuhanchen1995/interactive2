@@ -26,7 +26,7 @@ buttonstart.addEventListener('click',function(){
 buttonstart.classList.add('state1') ;
  setTimeout(function(){
    buttonstart.classList.remove('state1')
-  },500)
+  },300)
 
 
     if(clickcount === 0){
@@ -88,6 +88,9 @@ if(clickcount === 4){
     setTimeout(function(){
     photo1.classList.add('state1');
     cloud1.classList.add('state1')},2000)
+    setTimeout(function(){
+   buttonstart.classList.add('state2')
+  },1000)
 
 }
     clickcount ++
