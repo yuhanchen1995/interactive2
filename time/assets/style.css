@@ -1,0 +1,92 @@
+body {
+  background: black;  
+  font-family: monaco;
+  overflow:hidden;
+}
+
+.classTime {
+  background: black;
+}
+#image1 {
+position:absolute;
+ width:300px;
+ height:200px;
+ left:calc(50vw - 100px);
+ bottom:0px;
+ background:no-repeat center/100% url('../image/0.png');
+ border-style:none;
+ background-position: 0 100%;
+ z-index:200;
+}
+#image1.state1{
+   left:calc(50vw - 100px);
+background:no-repeat center/100% url('../image/00.png');
+background-position: 0 100%;
+}
+#clock {
+  width: 100px;
+  height: 100px;
+  top:10px;
+  right:10px;
+  position:absolute;
+}
+
+.droppy1 {
+position:absolute;
+ width:300px;
+ height:300px;
+ left:calc(50vw - 100px);
+ top:10px;
+    display: flex;
+   align-items: center;
+  justify-content: center;
+ background:no-repeat center/100% url('../image/1.png');
+ border-style:none;
+transition: ease-in-out 2000ms;
+z-index:100;
+  animation: drop 3s linear;
+}
+
+.droppy2 {
+position:absolute;
+ width:300px;
+ height:300px;
+ left:calc(50vw - 100px);
+ top:10px;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+ background:no-repeat center/100% url('../image/2.png');
+ border-style:none;
+transition: ease-in-out 2000ms;
+z-index:100;
+  animation: drop 3s linear;
+}
+.droppy3 {
+  position:absolute;
+  top:0;
+  left:20px;
+  background: url('../image/3.png');
+  width:100px;
+  height:100px;
+  animation: drop 3s linear;
+}
+
+.droppy4 {
+  position:absolute;
+  top:0;
+  left:20px;
+  background: url('../image/4.png');
+  width:100px;
+  height:100px;
+  animation: drop 3s linear;
+}
+
+@keyframes drop {
+  from {
+    top:0;
+  }
+  to {
+    top:calc(100vh - 400px);
+  }
+}
