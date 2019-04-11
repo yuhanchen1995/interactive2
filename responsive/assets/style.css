@@ -1,0 +1,133 @@
+body {
+  width:100vw;
+  height:100vh;
+  transition:background 200ms ease;  
+  font-size:2vmin;
+  font-family:Menlo, monospace;
+    position:absolute;
+      display:flex;
+      justify-content: center;
+      align-items: center; 
+}
+
+
+.circle div{
+      opacity:0.9;
+      display:flex;
+      justify-content: center;
+      align-items: center; 
+}
+
+.n1{
+     position:absolute;
+     left:10vw;
+      width: 500px;
+      height: 500px;
+      background:#6CC1D7;
+      border-radius: 50%;
+      display:flex;
+      justify-content: center;
+      align-items: center; 
+      opacity:0.9;
+}
+
+.n2{
+      width: 300px;
+      height: 300px;
+      background: #C0BED4;
+      border-radius: 50%;
+
+}
+.n3{
+        width: 50px;
+      height: 50px;
+      background: #FEDB00;
+      border-radius: 50%
+}
+.n11{
+       position:absolute;
+    right:10vw;
+      width: 500px;
+      height: 500px;
+      background: #FEDB00;
+      border-radius: 50%;
+       display:flex;
+      justify-content: center;
+      align-items: center; 
+      opacity:0.6;
+}
+.n22{
+      width: 300px;
+      height: 300px;
+      background: #F3EDD6;
+      border-radius: 50%
+}
+.n33{
+      width: 150px;
+      height: 150px;
+      background: #EF4430;
+      border-radius: 50%
+}
+.n44{
+      width: 100px;
+      height: 100px;
+      background: #F3EDD6;
+      border-radius: 50%
+}
+.n55{
+      width: 50px;
+      height: 50px;
+      background: #6CC1D7;
+      border-radius: 50%
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+
+ 
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+  .circle{
+     border-radius: 0%;
+     animation:none;
+  }
+  
+}
+@media only screen and (min-width: 800px){
+    body {
+    background-color: pink;
+  }
+.circle{
+     border-radius: 0%;
+     animation: pulse 0.5s ease-in-out infinite both;
+  }
+}
+
+
+@media only screen and  (max-width: 801px) and (min-width: 600px) {
+  body {
+     background-color: #EBE7E6;
+  }
+  .circle{
+      animation: pulse 1s ease-in-out infinite both;
+  }
+}
