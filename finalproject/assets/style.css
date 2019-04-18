@@ -11,9 +11,10 @@ body {
 .question{
 	position:absolute;
 	top:25vw;
-	font-size:2vw;
+	font-size:1.7vw;
 	opacity:0;
-	color:white;
+	color:black;
+
 }
 .show{
 	opacity:1;
@@ -61,6 +62,7 @@ a:visited {
 .display{
   margin:2vw;	
   width:50vw;
+  cursor:pointer;
 }
 .grow{
 height:200vh;
@@ -97,12 +99,21 @@ height:100%;
 width:25vw;
 margin:2vw;
 }
+#nav1:hover{
+filter: opacity(0.2);
+}
+
 .description{
 	width:60vw;
 	margin-left:10vw;
 	margin-right:10vw;
 }
 @media screen and (max-width: 800px) {
+.question{
+display:none;
+}
+
+
 .wrapper{
 align-items:center;
   justify-content:center;
@@ -128,6 +139,7 @@ height:70vw;
   }
   .display{
   width:85vw;
+  cursor:default;
 }
 .description{
 	width:80vw;
