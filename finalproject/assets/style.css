@@ -1,6 +1,150 @@
 body {
-  width:100vw;
-  height:100vh;
-  transition:background 200ms ease;  
-  font-family:Menlo, monospace;
+  transition: background 200ms ease;  
+  font-family:Arial, sans-serif, monospace;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
 }
+.question{
+	position:absolute;
+	top:25vw;
+	font-size:2vw;
+	opacity:0;
+	color:white;
+}
+.show{
+	opacity:1;
+}
+.wrapper{
+	flex-direction:column;
+  align-items:flex-start;
+  justify-content:left;
+  width:90vw;
+}
+#homeicon{
+	position:relative;
+	margin-left:-90vw;
+	margin-top:1vw;
+}
+.maintitle{
+font-size:4vw;
+font-weight: bold;
+margin-top:3vw;
+margin-bottom:3vw;
+margin-left:2vw;
+}
+.name{
+	font-size:2.5vw;
+	font-weight: bold;
+	margin:0.5vw;
+}
+.introduction{
+	 column-count: 2;
+	 column-gap: 40px;
+	width:70vw;
+    margin-left:2vw;
+}
+a:link {
+  color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.display{
+  margin:2vw;	
+  width:50vw;
+}
+.grow{
+height:200vh;
+width:unset;
+margin:0vw;
+position:absolute;
+
+}
+
+.navcenter{
+height:7vw;
+width:80vw;
+ display: flex;
+ align-items: stretch;
+ justify-content:center;
+}
+#nav{
+height:100%;
+width:10vw;
+margin:2vw;
+}
+
+.navcenter1{
+height:18vw;
+display: flex;
+align-items: stretch;
+justify-content:center;
+position:absolute;
+bottom:5vw;
+margin-left:0vw;
+}
+#nav1{
+height:100%;
+width:25vw;
+margin:2vw;
+}
+.description{
+	width:60vw;
+	margin-left:10vw;
+	margin-right:10vw;
+}
+@media screen and (max-width: 800px) {
+.wrapper{
+align-items:center;
+  justify-content:center;
+}
+.navcenter1 {
+height:240vw;
+flex-direction: column;
+position:relative;
+bottom:0vw;
+margin:auto;
+  }
+ #nav1{
+width:100%;
+height:70vw;
+}
+.introduction{
+ column-count: 1;
+ width:80vw;
+ margin:auto;
+  }
+  .name{
+  	font-size:20px;
+  }
+  .display{
+  width:85vw;
+}
+.description{
+	width:80vw;
+margin:auto;
+}
+.navcenter{
+height:15vw;
+width:80vw;
+}
+#nav{
+width:20vw;
+margin-top:7vw;
+margin-bottom:9vw;
+}
+.description{
+	margin-top:5vw;
+}
+.maintitle
+}
+

@@ -1,0 +1,17 @@
+body {
+  width:100vw;
+  height:100vh;
+  transition:background 200ms ease;  
+  font-family:Menlo, monospace;
+}
+.navcenter{
+height:20vw;
+width:80vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#nav{
+width:10vw;
+margin-left:10vw;
+}
