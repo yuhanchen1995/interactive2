@@ -1,19 +1,17 @@
 let image=document.querySelector('.display')
 let question=document.querySelector('.question')
+let nav1=document.querySelectorAll('#nav1')
+let exhibit1=document.querySelector('.exhibit1')
+let sound =  document.querySelector('.sound');
+let Audio = document.querySelector('#Audio');
+let night = document.querySelector('.night');
 
-	image.addEventListener('click', function(){
+image.addEventListener('click', function(){
 		image.classList.toggle('grow');
-		console.log('hi!')
+	night.classList.add('starshow');
 	})
 
-
-image.addEventListener('mouseenter',function(){
-question.classList.add('show');
-})
-
-image.addEventListener('mouseleave',function(){
-question.classList.remove('show');
-})
+Audio.volume = 1;
 
 image.addEventListener('mousemove',function(event){
 
@@ -30,9 +28,23 @@ image.addEventListener('mousemove',function(event){
   
   
   console.log(x,y,x*imageWidth,y*imageHeight)
-//   if(clickcount === 0){
-// window.addEventListener('click', function(){
-// 	image.classList.remove('grow');
-// })};
 })
 
+
+ 
+
+function changeImage()
+     {
+      if (sound.getAttribute('src') == "assets/sound.png")
+       {
+         sound.src = "assets/sound2.png";
+         Audio.volume=1;
+         Audio.play();
+
+         }
+       else
+         {
+        sound.src = "assets/sound.png";
+        Audio.pause();
+                }
+            }
