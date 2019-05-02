@@ -1,14 +1,27 @@
 let image=document.querySelector('.display')
-let question=document.querySelector('.question')
-let nav1=document.querySelectorAll('#nav1')
-let exhibit1=document.querySelector('.exhibit1')
 let sound =  document.querySelector('.sound');
 let Audio = document.querySelector('#Audio');
 let night = document.querySelector('.night');
 
+let container2 = document.querySelector('.container2')
+
 image.addEventListener('click', function(){
 		image.classList.toggle('grow');
-	night.classList.add('starshow');
+    if(night){
+      
+
+      if(night.classList.contains('hidden')){
+        night.classList.remove('hidden')
+        night.classList.add('starshow');
+      } else {
+        night.classList.add('hidden')
+        night.classList.remove('starshow');
+      }
+
+      
+    }
+    container2.classList.toggle('unposition');
+	
 	})
 
 Audio.volume = 1;
