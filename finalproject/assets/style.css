@@ -423,7 +423,7 @@ animation-delay: 422ms;
   animation-delay: 456ms;
 }
 
-
+/*sources: https://codepen.io/YusukeNakaya/pen/XyOaBj*/
 @keyframes tail {
   0% {
     width: 0;
@@ -468,6 +468,7 @@ animation-delay: 422ms;
 
 
 @media screen and (max-width: 800px) {
+
 .question{
 display:none;
 }
@@ -481,7 +482,7 @@ align-items:center;
 height:230vw;
 flex-direction: column;
 position:relative;
-margin:10px;
+margin:20px;
 }
 
 #nav1{
@@ -498,11 +499,17 @@ height:70vw;
 .display{
   width:85vw;
   cursor:default;
+  margin-top:5vw;
 }
 
 .des{
-margin-top:5vw;
-margin:4px;
+margin:6px;
+line-height:1;
+line-height:0.9;
+}
+
+.medium{
+  margin-top:10px;
 }
 
 .navbar{
@@ -516,6 +523,7 @@ width:80vw;
  align-items: stretch;
  justify-content:center;
 }
+
 .container2:hover .display{
 filter: none;
 }
@@ -525,16 +533,20 @@ width:20vw;
 margin-top:7vw;
 margin-bottom:9vw;
 }
+
 .maintitle{
   font-size:7vw;
 }
 
 .name{
 font-size:6vw;
+margin-top:7vw;
 }
+
 .home{
 height:4vw;
 width:4vw;
+z-index:10000000;
 }
 .sound{
 display:none;
