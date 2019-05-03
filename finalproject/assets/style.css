@@ -29,7 +29,6 @@ font-family: 'Barlow Condensed', sans-serif;
 .grid-item {
   text-align: left;
   justify-content:center;
-      transition:ease-in-out 500ms;
 
 }
 
