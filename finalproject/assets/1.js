@@ -2,8 +2,8 @@ let image=document.querySelector('.display')
 let sound =  document.querySelector('.sound');
 let Audio = document.querySelector('#Audio');
 let night = document.querySelector('.night');
+let container2 = document.querySelector('.container2');
 
-let container2 = document.querySelector('.container2')
 
 image.addEventListener('click', function(){
 		image.classList.toggle('grow');
